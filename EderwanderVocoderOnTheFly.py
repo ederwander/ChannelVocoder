@@ -165,7 +165,6 @@ stream = pyaud.open(format =  pyaudio.paFloat32,
                rate = Fs,
                input = True,
                output = True)
-count=0
 
 print("listening...")
 
